@@ -2,6 +2,7 @@ var gulp = require('gulp'),
     pkg = require('./package.json'),
     autoprefixer = require('gulp-autoprefixer'),
     browserify = require('browserify'),
+    connect = require('gulp-connect'),
     less = require('gulp-less'),
     modernizr = require('gulp-modernizr'),
     rename = require('gulp-rename'),
@@ -20,6 +21,13 @@ gulp.task('browserify', function() {
         .bundle()
         .pipe(source('bundle.js'))
         .pipe(gulp.dest('./js/'))
+});
+
+gulp.task('connect', function() {
+    connect.server({
+        root: './src',
+        port: 8888
+    });
 });
 
 gulp.task('watch', function() {

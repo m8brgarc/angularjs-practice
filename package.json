@@ -12,7 +12,16 @@
     "gulp-rename": "^1.2.2",
     "vinyl-source-stream": "^1.1.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "browserify": "^9.0.8",
+    "gulp": "^3.8.11",
+    "gulp-autoprefixer": "^2.2.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-less": "^3.0.3",
+    "gulp-modernizr": "^1.0.0-alpha",
+    "gulp-rename": "^1.2.2",
+    "vinyl-source-stream": "^1.1.0"
+  },
   "scripts": {
     "test": "make test"
   },
