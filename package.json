@@ -1,0 +1,33 @@
+{
+  "name": "angularjs-practice",
+  "version": "1.0.0",
+  "description": "AngularJS Practice Project",
+  "main": "index.js",
+  "dependencies": {
+    "browserify": "^9.0.8",
+    "gulp": "^3.8.11",
+    "gulp-autoprefixer": "^2.2.0",
+    "gulp-less": "^3.0.3",
+    "gulp-modernizr": "^1.0.0-alpha",
+    "gulp-rename": "^1.2.2",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:m8brgarc/angularjs-practice.git"
+  },
+  "keywords": [
+    "angularjs",
+    "practice"
+  ],
+  "author": "Brandon Garcia-Acain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m8brgarc/angularjs-practice/issues"
+  },
+  "homepage": "https://github.com/m8brgarc/angularjs-practice"
+}
